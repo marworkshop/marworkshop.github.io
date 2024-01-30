@@ -510,10 +510,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #intro h1 {
   color: #fff;
-  font-family: "Raleway", sans-serif;
-  font-size: 56px;
+  font-family: sans-serif;
+  font-size: 70px;
   font-weight: 600;
-  text-transform: uppercase;
+  #text-transform: uppercase;
 }
 
 #intro h1 span {

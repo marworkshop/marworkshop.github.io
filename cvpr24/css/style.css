@@ -513,7 +513,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-family: sans-serif;
   font-size: 70px;
   font-weight: 600;
-  #text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 #intro h1 span {

@@ -157,8 +157,8 @@ h6 {
 
 #header.header-scrolled,
 #header.header-fixed {
-  background: rgba(6, 12, 34, 0.98);
-  height: 100px; /* 70px */
+  background: rgba(0, 0, 0, 1); /*rgba(6, 12, 34, 0.98);*/
+  height: 75px; /* 70px */
   padding: 15px 0;
   transition: all 0.5s;
 }
@@ -186,13 +186,13 @@ h6 {
 /* added by KP*/
 #header #logo p {
   padding: 0;
-  margin: 10px 0;
+  margin: 5px 0;
 }
 
 #header #logo img {
   padding: 0;
   margin: 0;
-  max-height: 70px; /* 40px */
+  max-height: 55px; /* 40px */
 }
 
 /*--------------------------------------------------------------
@@ -203,7 +203,7 @@ h6 {
 
 .nav-menu,
 .nav-menu * {
-  margin: 4px 0; /* 0 */
+  margin: 2px 0; /* 0 */
   padding: 0;
   list-style: none;
 }

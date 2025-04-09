@@ -637,14 +637,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 	z-index: -1;
 }
 
-@media (min-aspect-ratio: 1072/720){
+@media (min-aspect-ratio: 960/720){
 	.back-video{
 		width: 100%;
 		height: auto;
 	}
 }
 
-@media (max-aspect-ratio: 1072/720){
+@media (max-aspect-ratio: 960/720){
 	.back-video{
 		width: auto;
 		height: 100%;

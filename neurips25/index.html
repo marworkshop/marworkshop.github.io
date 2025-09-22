@@ -1,6 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<style>
+a:link {
+  color: orange; <!--green;-->
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: orange; <!--pink;-->
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: pink; <!--yellow;-->
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+
 <head>
   <meta charset="utf-8">
   <title>MAR 2025 - Multimodal Algorithmic Reasoning</title>
@@ -9,8 +35,8 @@
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="img/mar25.png" rel="icon">
-  <link href="img/mar25.png" rel="apple-touch-icon">
+  <link href="img/nips25.png" rel="icon">
+  <link href="img/nips25.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
@@ -40,257 +66,1981 @@
   <!--==========================
     Header
   ============================-->
-  <header id="header" class="header-fixed">
+  <header id="header"  class="header-fixed">
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="index.html#intro" class="scrollto"><img src="img/mar25.png" style="width:55px;height:55px;" alt="" title=""></a>
+        <a href="#intro" class="scrollto"><img src="img/mar25.png" style="width:55px;height:55px;" alt="" title=""></a>
       </div>
 	  
 	  <div id="logo" class="pull-left">
         <!-- Uncomment below if you prefer to use a text logo -->
         <!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
-        <!-- <a href="index.html#intro" class="scrollto"><img src="img/logo.png" alt="" title=""></a> -->
-        <a href="index.html#intro" class="scrollto"><p style="font-size:30px;color:white">&nbsp MAR 2025</p></a>
+        <!-- <a href="#intro" class="scrollto"><img src="img/mar25.png" alt="" title=""></a> -->
+        <a href="#intro" class="scrollto"><p style="font-size:30px;color:white">&nbsp MAR 2025</p></a>
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="index.html#intro">Home</a></li>
-          <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#speakers">Speakers</a></li>
-          <li><a href="index.html#schedule">Schedule</a></li>
-		  <!-- <li><a href="index.html#submission">Submission</a></li> -->
-		  <li><a href="index.html#papers">Papers</a></li>
-		  <!--<li><a href="index.html#accepted_work">Accepted Work</a></li>-->
-          <li><a href="index.html#venue">Venue</a></li>
+          <li class="menu-active"><a href="#intro">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#speakers">Speakers</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+		  <!-- <li><a href="#submission">Submission</a></li> -->
+		  <li><a href="#papers">Papers</a></li>
+          <li><a href="#venue">Venue</a></li>
           <!-- <li><a href="#hotels">Hotels</a></li> -->
           <!-- <li><a href="#gallery">Gallery</a></li> -->
-          <li><a href="index.html#supporters">Sponsor</a></li>
+          <li><a href="#supporters">Sponsor</a></li>
           <!-- <li><a href="#contact">Contact</a></li> -->
-          <li><a href="index.html#organizers">Contact</a></li>
-		  <li><a href="../index.html">Past Workshops</a></li>
+          <li><a href="#organizers">Contact</a></li>
+          <li><a href="../index.html">Past Workshops</a></li>
 		  <li><a class="btn navbar-btn mx-2 text-white btn-outline-light" href="https://cmt3.research.microsoft.com/MARNIPS2025" target="_blank" rel="noopener noreferrer">CMT</a></li>
-		  <!-- <li><a class="btn navbar-btn mx-2 text-white btn-outline-light" href="https://eval.ai/web/challenges/challenge-page/2088/overview" target="_blank" rel="noopener noreferrer">Challenge</a></li> -->
+		  <!-- <li><a class="btn navbar-btn mx-2 text-white btn-outline-light" href="https://eval.ai/web/challenges/challenge-page/2247/overview" target="_blank" rel="noopener noreferrer">Challenge</a></li> -->
 		  <!-- <li><a class="btn navbar-btn mx-2 text-white btn-outline-light" href="https://smartdataset.github.io/smart101/" target="_blank" rel="noopener noreferrer">SMART-101</a></li> -->
-          <!-- <li><a href="../index.html#VASBSD_series">VASBSD Series</a></li> -->
+	      <!-- <li><a href="../index.html#AIBSD_series">AIBSD Series</a></li> -->
           <!-- <li class="buy-tickets"><a href="#buy-tickets">Buy Tickets</a></li> -->
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
   </header><!-- #header -->
 
-  <main id="main" class="main-page">
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro">
+    <div class="intro-container wow fadeIn">
+      <!-- <h1 class="mb-4 pb-0">The Annual<br><span>Marketing</span> Conference</h1> -->
+<!--	  
+	  <video autoplay loop muted plays-inline class="back-video">
+			<source src="img/intro-bg.mp4" type="video/mp4">
+	  </video>
+-->	  
+	  <h1 class="mb-4 pb-0">Multimodal Algorithmic Reasoning</h1>
+	  <h1 class="mb-4 pb-0">(MAR)</h1>
+      <p class="mb-4 pb-0">In Conjunction with <a href="https://neurips.cc/Conferences/2025" target="_blank" rel="noopener noreferrer">the Conference on Neural Information Processing Systems 2025</a></p>
+	  <!-- <p class="mb-4 pb-0">2pm - 6pm IDT on October 24, 2022</p> -->
+	  <p class="mb-4 pb-0">Upper Level Room 11AB, San Diego Convention Center, San Diego, CA, USA</p>
+	  <p class="mb-4 pb-0">December 7, 2025</p>
+	  <!-- <p class="mb-4 pb-0">1:40 PM - 6:00 PM CST on June 11, 2025</p> -->
+	  <!-- <p class="mb-4 pb-0">[<a href="https://neurips.cc/virtual/2024/workshop/84713" target="_blank" rel="noopener noreferrer">MAR 2024 on the NeurIPS 2024 virtual platform</a>]</p> -->
+	  <!-- <p class="mb-4 pb-0"><a href="https://www.youtube.com/channel/UCzlKSQ66EGrg8MupoqC1shA/live" target="_blank" rel="noopener noreferrer">YouTube Live Stream Link / Video Recording</a></p> -->
+      <!--
+	  <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video"
+        data-autoplay="true"></a>
+		-->
+      <a href="#about" class="about-btn scrollto">About MAR 2025</a>
+    </div>
+  </section>
+
+  <main id="main">
 
     <!--==========================
-      Organizer Details Section
+      About Section
     ============================-->
-    <section id="organizers-details" class="wow fadeIn">
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>About MAR 2025</h2>
+            <!--p>The focus of this workshop is to bring together researchers in multimodal machine learning and cognitive models of intelligence, towards positioning the current research progress in AI within the overarching goal of achieving human-like machine intelligence and together develop new models for algorithmic intelligence. An important goal is to bring to the forefront problems in perception, language modeling, and cognition that are often overlooked in state-of-the-art research and that are important for making true progress in AI. To effectuate this goal, we plan to bring outstanding faculty/researchers working at the intersections of vision, language, machine learning, and cognition to provide their opinions on the recent breakthroughs, as well as showcase their cutting edge research on the above topics that could inspire the audience to search for the missing rungs on the ladder to true intelligence.</p-->
+	    <p> In this workshop, we plan to gather researchers working in neural algorithmic learning, multimodal reasoning, and cognitive models of intelligence to showcase their cutting-edge research, discuss the latest challenges, as well as bring to the forefront problems in perception and language modeling that are often overlooked but are pivotal in achieving true artificial general intelligence. An emphasis of this workshop is on the emerging topic of multimodal algorithmic reasoning, where a reasoning agent is required to automatically deduce new algorithms/procedures for solving real-world tasks, e.g., algorithms that use multimodal foundational models for analysis, synthesis, and planning, new approaches towards solving challenging vision-and-language mathematical (Olympiad type) reasoning problems, deriving winning strategies in multimodal games, procedures for using tools in robotic manipulation, etc. We hope to deep dive into this exciting topic at the intersection of multimodal learning and cognitive science to understand what we have achieved thus far in machine intelligence and what we are lacking in relation to the human way of thinking -- through talks from outstanding researchers and faculty that could inspire the audience to search for the missing rungs on the ladder to true intelligence.</p>
+
+			<!-- <p>A second focus of MAR 2024 is to nudge the vision community to make progress on building neural networks that have human-like intelligence abilities for abstraction, inference, and generalization. To this end, we propose the SMART-101 challenge as part of this workshop. This challenge is based on the Simple Multimodal Algorithmic Reasoning Task and the <a href="https://smartdataset.github.io/smart101/" target="_blank" rel="noopener noreferrer">SMART-101 dataset</a> consisting of vision-and-language algorithmic reasoning puzzles. The puzzles demonstrate the need for algorithmic reasoning on abstract visual puzzles, which we believe would be a great test bed for evaluating multimodal large language models, which is a topic of great interest and excitement in computer vision currently. Overall, we strongly believe the combination of multimodal abstraction and language reasoning combined with perspectives from cognition makes our workshop unique among other workshops at CVPR 2024.</p> -->
+          </div>
+          <div class="col-lg-3">
+            <h3>Where</h3>
+            <p>Upper Level Room 11AB, San Diego Convention Center, San Diego, CA, USA</p>
+			<!-- <p>Paris Convention Centre (Room S2) and <a href="https://www.youtube.com/channel/UCzlKSQ66EGrg8MupoqC1shA/live" target="_blank" rel="noopener noreferrer">YouTube Live Stream</a></p> -->
+          </div>
+          <div class="col-lg-3">
+            <h3>When</h3>
+			<p>December 7, 2025</p>
+			<!-- <p>1:40 PM - 6:00 PM CST on June 11, 2025</p> -->
+            <!-- <p>09:00 AM - 05:00 PM PST<br>October 24-28, 2022 (exact date TBD)</p> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==========================
+      Speakers Section
+    ============================-->
+    <section id="speakers" class="wow fadeInUp">
       <div class="container">
         <div class="section-header">
-          <h2>Organizer Details</h2>
-          <!-- <p>TBD</p> -->
+          <h2>Keynote Speakers</h2>
+		  <!-- <p>[Tentative & Subject to Change]</p> -->
+          <p>[More info about keynote speakers will be updated here]</p>
         </div>
 
-		<div class="row">
-          <div class="col-md-6">
-            <a href="http://users.cecs.anu.edu.au/~cherian/" target="_blank" rel="noopener noreferrer"><img src="img/organizers/Anoop_Cherian.jpg" alt="Anoop Cherian" class="img-fluid" style="width:55%;padding-bottom: 0px"></a>
-          </div>
-          <div class="col-md-6">
-            <div class="details">
-              <h2 id="Anoop_Cherian"><a href="http://users.cecs.anu.edu.au/~cherian/" target="_blank" rel="noopener noreferrer" style="color:RoyalBlue;">Anoop Cherian</a></h2>
-              <p>Mitsubishi Electric Research Laboratories (MERL)</p>
-              <div class="social">
-                <!-- <a href=""><i class="fa fa-twitter"></i></a> -->
-                <!-- <a href=""><i class="fa fa-facebook"></i></a> -->
-                <!-- <a href=""><i class="fa fa-google-plus"></i></a> -->
-                <a href="https://www.linkedin.com/in/anoop-cherian-4678a04/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
-              </div>
-              <p>Bio:<br>Dr. Anoop Cherian is a Senior Principal Research Scientist with Mitsubishi Electric Research Labs (MERL) in Cambridge, MA and an adjunct Associate Professor with the Australian National University (ANU), Canberra, Australia. He was a former Research Fellow with the Australian Center for Robotic Vision (ACRV) at ANU, and a Postdoctoral Fellow with the LEAR project team at Inria, Grenoble, France. Anoop received his MS and PhD degrees in 2010 and 2013 respectively from the University of Minnesota, Minneapolis, and B.Tech from National Institute of Technology, Calicut, India. Anoop has broad interests in the areas of multimodal and embodied AI, neuro-symbolic reasoning, generative models, robotics, and optimization. Anoop has organized several workshops at computer vision venues in the past, including the Multimodal Algorithmic Reasoning Workshops at CVPR 2024 and NeurIPS 2024, the Vision-and-Language Algorithmic Reasoning Workshop at ICCV 2023, the Deep Declarative Networks Workshop at CVPR 2020, Tensor Methods in Computer Vision (TMCV) at CVPR 2017, Robotic Vision Summer School (RVSS 2017), and Visually Grounded Interaction and Language (VIGIL) at NeurIPS 2018, among others.</p>
-            </div>
-          </div>  
-        </div>
+        <div class="row">          
 
-		<p></p>
 
-        <div class="row">
-          <div class="col-md-6">
-            <a href="http://www.merl.com/people/kpeng"  target="_blank" rel="noopener noreferrer"><img src="img/organizers/Kuan-Chuan_Peng.jpg" alt="Kuan-Chuan Peng" class="img-fluid" style="width:55%;padding-bottom: 0px"></a>
-          </div>
-          <div class="col-md-6">
-            <div class="details">
-              <h2 id="Kuan-Chuan_Peng"><a href="http://www.merl.com/people/kpeng" target="_blank" rel="noopener noreferrer" style="color:RoyalBlue;">Kuan-Chuan Peng</a></h2>
-              <p>Mitsubishi Electric Research Laboratories (MERL)</p>
-              <div class="social">
-                <!-- <a href=""><i class="fa fa-twitter"></i></a> -->
-                <a href="https://www.facebook.com/LynxPeng" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a>
-                <!-- <a href=""><i class="fa fa-google-plus"></i></a> -->
-                <a href="https://www.linkedin.com/in/kuan-chuan-peng-8344817a/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <a href="https://rakaposhi.eas.asu.edu/"><img src="img/speakers/Subbarao_Kambhampati.jpg" alt="Subbarao Kambhampati" class="img-fluid" style="width:100%;padding-bottom: 85px"></a>
+              <div class="details">
+                <h3><a href="https://rakaposhi.eas.asu.edu/">Subbarao Kambhampati</a></h3>
+                <p>Arizona State University</p>
+				<div class="social">
+				<!--
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                -->
+				</div>
               </div>
-              <p>Bio:<br>Dr. Kuan-Chuan Peng is an IEEE Senior Member and a Principal Research Scientist at Mitsubishi Electric Research Labs (MERL) in Cambridge, MA. He received his Ph.D. degree in Electrical and Computer Engineering from Cornell University in 2016. He received a B.S. degree in Electrical Engineering and an M.S. degree in Computer Science from National Taiwan University in 2009 and 2012 respectively. His expertise includes domain adaptation, anomaly detection, attention modeling, and fundamental computer vision and machine learning problems. He organized: (1) 2024 Workshop on Anomaly Detection with Foundation Models in conjunction with IJCAI 2024. (2) 2024 Workshops on Multimodal Algorithmic Reasoning in conjunction with CVPR 2024 and NeurIPS 2024. (3) 2023 Workshop on Vision-and-Language Algorithmic Reasoning in conjunction with ICCV 2023. (4) 2022 and 2024 Workshop on Artificial Intelligence with Biased or Scarce Data in conjunction with AAAI 2022 and 2024. (5) 2022 Workshop on Vision with Biased or Scarce Data in conjunction with ECCV 2022. (6) 2020, 2021, 2022, 2023, and 2024 Workshop on Fair, Data-Efficient and Trusted Computer Vision in conjunction with CVPR in 2020, 2021, 2022, 2023, and 2024. (7) 2020 and 2021 Workshop on Vision Applications and Solutions to Biased or Scarce Data in conjunction with WACV in 2020 and 2021. (8) 2018 and 2019 Workshop on Vision with Biased or Scarce Data in conjunction with CVPR in 2018 and 2019.</p>
             </div>
-          </div>  
-        </div>
-		
-		<p></p>
-		
-		<div class="row">
-          <div class="col-md-6">
-            <a href="https://www.merl.com/people/slohit" target="_blank" rel="noopener noreferrer"><img src="img/organizers/Suhas_Lohit.jpg" alt="Suhas Lohit" class="img-fluid" style="width:55%;padding-bottom: 0px"></a>
           </div>
-          <div class="col-md-6">
-            <div class="details">
-              <h2 id="Suhas_Lohit"><a href="https://www.merl.com/people/slohit" target="_blank" rel="noopener noreferrer" style="color:RoyalBlue;">Suhas Lohit</a></h2>
-              <p>Mitsubishi Electric Research Laboratories (MERL)</p>
-              <div class="social">
-                <!-- <a href=""><i class="fa fa-twitter"></i></a> -->
-                <!-- <a href=""><i class="fa fa-facebook"></i></a> -->
-                <!-- <a href=""><i class="fa fa-google-plus"></i></a> -->
-                <a href="https://www.linkedin.com/in/suhaslohit/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
-              </div>
-              <p>Bio:<br>Dr. Suhas Lohit is a Principal Research Scientist at Mitsubishi Electric Research Labs (MERL) in Cambridge, MA, USA. Before coming to MERL, Suhas received his Ph.D degree in Electrical Engineering from Arizona State University in 2019. His research interests include computer vision, computational imaging and deep learning. Recently, his research focus has been on creating hybrid model- and data-driven neural architectures for various applications in imaging and vision. He organized: (1) 2024 Workshops on Multimodal Algorithmic Reasoning in conjunction with CVPR 2024 and NeurIPS 2024. (2) 2023 Workshop on Vision-and-Language Algorithmic Reasoning in conjunction with ICCV 2023.</p>
-            </div>
-          </div>  
-        </div>
-		
-		<p></p>
-		
-		<div class="row">
-          <div class="col-md-6">
-            <a href="https://sites.google.com/view/hongluzhou/" target="_blank" rel="noopener noreferrer"><img src="img/organizers/Honglu_Zhou.png" alt="Honglu Zhou" class="img-fluid" style="width:55%;padding-bottom: 0px"></a>
-          </div>
-          <div class="col-md-6">
-            <div class="details">
-              <h2 id="Honglu_Zhou"><a href="https://sites.google.com/view/hongluzhou/" target="_blank" rel="noopener noreferrer" style="color:RoyalBlue;">Honglu Zhou</a></h2>
-              <p>Salesforce Research</p>
-              <div class="social">
 
-                <!-- <a href=""><i class="fa fa-twitter"></i></a> -->
-                <!-- <a href=""><i class="fa fa-facebook"></i></a> -->
-                <!-- <a href=""><i class="fa fa-google-plus"></i></a> -->
-                <a href="https://www.linkedin.com/in/honglu-zhou-21058a169/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+
+		  <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <a href="https://ych133.github.io/"><img src="img/speakers/Yu_Cheng.png" alt="Yu Cheng" class="img-fluid" style="width:100%;padding-bottom: 85px"></a>
+              <div class="details">
+                <h3><a href="https://ych133.github.io/">Yu Cheng</a></h3>
+                <p>Chinese University of Hong Kong</p>
+				<div class="social">		
+				<!--
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+				-->
+                </div>
               </div>
-              <p>Bio:<br>Dr. Honglu Zhou is a Research Scientist at Salesforce Research. She received her Ph.D. degree at Rutgers University in the Computer Science Department, under the supervision of Prof. Mubbasir Kapadia. She was a member of the Intelligent Visual Interfaces Lab. Her work was published in numerous renowned conferences (CVPR, ICLR, ECCV, SIGIR, IJCAI) and journals (Springer The Visual Computer, IEEE Computer Graphics and Applications). Her work has been recognized with a Best Paper Award from CIKM 2022. She has done multiple internships and collaborated with researchers from Salesforce Research, NEC Laboratories America, Google YouTube, DeepMind, and Google Research. Honglu is passionate about next-generation machine intelligence. Her research interests lie in the areas of video understanding, machine reasoning, multimodality and generative models. Her goal is to tackle fundamental problems in high-level semantic analysis and reasoning by developing effective and efficient methods, especially for videos and human behavior sequences, so that machines are able to interpret and interact with the dynamic visual world that we humans live in. She organized the 2024 Workshops on Multimodal Algorithmic Reasoning in conjunction with CVPR 2024 and NeurIPS 2024, and the 2023 Workshop on Vision-and-Language Algorithmic Reasoning in conjunction with ICCV 2023.</p>
             </div>
-          </div>  
-        </div>
-		
-		<p></p>
-<!--	
-		<div class="row">
-          <div class="col-md-6">
-            <a href="https://www.merl.com/people/chatterjee" target="_blank" rel="noopener noreferrer"><img src="img/organizers/Moitreya_Chatterjee.jpg" alt="Moitreya Chatterjee" class="img-fluid" style="width:55%;padding-bottom: 0px"></a>
           </div>
-          <div class="col-md-6">
-            <div class="details">
-              <h2 id="Moitreya_Chatterjee"><a href="https://www.merl.com/people/chatterjee" target="_blank" rel="noopener noreferrer">Moitreya Chatterjee</a></h2>
-              <p>Mitsubishi Electric Research Laboratories (MERL)</p>
-              <div class="social">
+		  
+
+		  <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <a href="https://cocolab.stanford.edu/ndg"><img src="img/speakers/Noah_Goodman.jpg" alt="Noah Goodman" class="img-fluid" style="width:100%;padding-bottom: 0px"></a>
+              <div class="details">
+                <h3><a href="https://cocolab.stanford.edu/ndg">Noah Goodman</a></h3>
+                <p>Stanford University</p>
+                <div class="social">
+				<!--
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+				-->
+				</div>
+              </div>
+            </div>
+          </div>
+		  
+<!--		  
+		  <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <a href="https://zicokolter.com/"><img src="img/speakers/Zico_Kolter.jpg" alt="Zico Kolter" class="img-fluid" style="width:100%;padding-bottom: 84px"></a>
+              <div class="details">
+                <h3><a href="https://zicokolter.com/">Zico Kolter</a></h3>
+                <p>CMU</p>
+				<div class="social">
 -->
-                <!-- <a href=""><i class="fa fa-twitter"></i></a> -->
-                <!-- <a href=""><i class="fa fa-facebook"></i></a> -->
-				<!-- <a href=""><i class="fa fa-google-plus"></i></a> -->
+                <!--
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                -->
 <!--
-                <a href="https://www.linkedin.com/in/moitreya-chatterjee-3937b863/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+                </div>
               </div>
-              <p>Bio:<br>Dr. Moitreya Chatterjee is a Research Scientist at Mitsubishi Electric Research Labs (MERL) in Cambridge, MA. He received his Ph.D. degree in Electrical and Computer Engineering from the University of Illinois at Urbana-Champaign in 2022. Moitreya's research interests are in computer vision, and multimodal machine learning with a particular emphasis on learning from audio-visual data. His PhD work received the Joan and Lalit Bahl Fellowship and the Thomas and Margaret Huang Research Award. Earlier, he earned a M.S. degree in Computer Science from the University of Southern California (USC), during which he received an Outstanding Paper Award from the ACM International Conference on Multimodal Interaction (ICMI).</p>
             </div>
-          </div>  
-        </div>
-		
-		<p></p>
--->		
-		<div class="row">
-          <div class="col-md-6">
-            <a href="http://www.mit.edu/~k2smith/" target="_blank" rel="noopener noreferrer"><img src="img/organizers/Kevin_Smith.jpg" alt="Kevin Smith" class="img-fluid" style="width:55%;padding-bottom: 0px"></a>
           </div>
-          <div class="col-md-6">
-            <div class="details">
-              <h2 id="Kevin_Smith"><a href="http://www.mit.edu/~k2smith/" target="_blank" rel="noopener noreferrer" style="color:RoyalBlue;">Kevin Smith</a></h2>
-              <p>MIT</p>
-              <div class="social">
-                <a href="https://twitter.com/realkevinsmith" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter"></i></a>
-                <!-- <a href=""><i class="fa fa-facebook"></i></a> -->
-                <!-- <a href=""><i class="fa fa-google-plus"></i></a> -->
-                <a href="https://www.linkedin.com/in/kevin-smith-4636944/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
-              </div>
-              <p>Bio:<br>Dr. Kevin Smith is a research scientist at the Computational Cognitive Sciences lab at MIT, whose research reverse engineers the processes people use to understand and reason about the physical world. His work has been recognized with a best paper award from Robotics: Science and Systems 2018, as well as for the best Perception & Action model at the Cognitive Sciences Society 2012. He has previously organized workshops and symposia at CVPR (the Workshop on Multimodal Algorithmic Reasoning, 2024), ICCV (the Workshop on Vision-and-Language Algorithmic Reasoning, 2023), NeurIPS (Modeling the Physical World: Perception, Learning, and Control), 2018; Physical Reasoning and Inductive Biases for the Real World, 2021), ECCV (First Challenge on Machine Visual Common Sense: Perception, Prediction, Planning, 2022), and the Cognitive Sciences Society (The Origins of Common Sense in Humans and Machines, 2020; Strategies and Representations in Physical Inference, 2018).</p>
-            </div>
-          </div>  
-        </div>
-		
-		<p></p>
-<!--		
-		<div class="row">
-          <div class="col-md-6">
-            <a href="https://scholar.google.com/citations?user=2_SZkwMAAAAJ&hl=en" target="_blank" rel="noopener noreferrer"><img src="img/organizers/Le_Xue.jpeg" alt="Le Xue" class="img-fluid" style="width:55%;padding-bottom: 0px"></a>
-          </div>
-          <div class="col-md-6">
-            <div class="details">
-              <h2 id="Le_Xue"><a href="https://scholar.google.com/citations?user=2_SZkwMAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" style="color:RoyalBlue;">Le Xue</a></h2>
-              <p>Salesforce AI Research</p>
-              <div class="social">
-                <a href="https://x.com/Le_Xue01" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter"></i></a>
 -->
-                <!-- <a href=""><i class="fa fa-facebook"></i></a> -->
-                <!-- <a href=""><i class="fa fa-google-plus"></i></a> -->
-<!--
-                <a href="https://www.linkedin.com/in/le-tycho-xue-5abbb9157/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+
+		  <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <a href="https://space.mit.edu/home/tegmark/"><img src="img/speakers/Max_Tegmark.jpg" alt="Max Tegmark" class="img-fluid" style="width:100%;padding-bottom: 94px"></a>
+              <div class="details">
+                <h3><a href="https://space.mit.edu/home/tegmark/">Max Tegmark</a></h3>
+                <p>MIT</p>
+				<div class="social">
+
+                <!--
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                -->
+
+                </div>
               </div>
-              <p>Bio:<br>Le Xue is a Senior Applied Scientist at Salesforce Research. He received his Master’s degree from Cornell University. His research interests span multimodal foundation models, computer vision, large language models, and 3D vision. He has published in renowned venues such as CVPR, ECCV, NeurIPS, ICLR, and ICRA. His recent work focuses on developing foundational large multimodal models with enhanced reasoning and action capabilities, exploring their potential and limitations in real-world scenarios, and building large-scale datasets to promote open-source foundational model development.</p>
             </div>
-          </div>  
-        </div>
-		
-		<p></p>
-		
-		<div class="row">
-          <div class="col-md-6">
-            <a href="https://www.merl.com/people/tmarks" target="_blank" rel="noopener noreferrer"><img src="img/organizers/Tim_Marks.jpg" alt="Tim Marks" class="img-fluid" style="width:55%;padding-bottom: 0px"></a>
+          </div>	
+		  
+
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <a href="https://www.cs.utexas.edu/~grauman/"><img src="img/speakers/Kristen_Grauman.jpg" alt="Kristen Grauman" class="img-fluid" style="width:100%;padding-bottom: 28px"></a>
+              <div class="details">
+                <h3><a href="https://www.cs.utexas.edu/~grauman/">Kristen Grauman</a></h3>
+                <p>University of Texas at Austin</p>
+                <div class="social">
+
+				<!--
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+				-->
+
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-md-6">
-            <div class="details">
-              <h2 id="Tim_Marks"><a href="https://www.merl.com/people/tmarks" target="_blank" rel="noopener noreferrer" style="color:RoyalBlue;" >Tim Marks</a></h2>
-              <p>Mitsubishi Electric Research Laboratories (MERL)</p>
-              <div class="social">
+
+		  
+		    
+
+<!--
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <a href="speaker-details.html#David_Duvenaud"><img src="img/speakers/David_Duvenaud.jpg" alt="David Duvenaud" class="img-fluid" style="width:100%;padding-bottom: 45px"></a>
+              <div class="details">
+                <h3><a href="speaker-details.html#David_Duvenaud">David Duvenaud</a></h3>
+                <p>University of Toronto</p>
+                <div class="social">
 -->
-                <!-- <a href=""><i class="fa fa-twitter"></i></a> -->
-                <!-- <a href=""><i class="fa fa-facebook"></i></a> -->
-                <!-- <a href=""><i class="fa fa-google-plus"></i></a> -->
+                <!--
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                -->
 <!--
-                <a href="https://www.linkedin.com/in/tim-marks-063894132/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+                </div>
               </div>
-              <p>Bio:<br>Dr. Tim Marks is a Senior Principal Research Scientist and Senior Team Leader at Mitsubishi Electric Research Labs (MERL) in Cambridge, MA. Prior to joining MERL in 2008, he did postdoctoral research in robotic Simultaneous Localization and Mapping in collaboration with NASA's Jet Propulsion Laboratory. His research at MERL spans a variety of areas in computer vision and machine learning, including face recognition under variations in pose and lighting, and robotic vision and touch-based registration for industrial automation. He organized the 2023 Workshop on Vision-and-Language Algorithmic Reasoning in conjunction with ICCV 2023 and the 2024 Workshop on Multimodal Algorithmic Reasoning in conjunction with CVPR 2024.</p>
             </div>
-          </div>  
-        </div>
-		
-		<p></p>
--->		
-		<div class="row">
-          <div class="col-md-6">
-            <a href="http://web.mit.edu/cocosci/josh.html" target="_blank" rel="noopener noreferrer"><img src="img/organizers/Joshua_Tenenbaum.jpg" alt="Joshua Tenenbaum" class="img-fluid" style="width:55%;padding-bottom: 0px"></a>
           </div>
-          <div class="col-md-6">
-            <div class="details">
-              <h2 id="Joshua_Tenenbaum"><a href="http://web.mit.edu/cocosci/josh.html" target="_blank" rel="noopener noreferrer" style="color:RoyalBlue;">Joshua B. Tenenbaum</a></h2>
-              <p>MIT</p>
-              <div class="social">
-                <!-- <a href=""><i class="fa fa-twitter"></i></a> -->
-                <!-- <a href=""><i class="fa fa-facebook"></i></a> -->
-                <!-- <a href=""><i class="fa fa-google-plus"></i></a> -->
-                <!-- <a href=""><i class="fa fa-linkedin"></i></a> -->
+-->		  
+          <!--
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <img src="img/speakers/6.jpg" alt="Speaker 6" class="img-fluid">
+              <div class="details">
+                <h3><a href="speaker-details.html">Willow Trantow</a></h3>
+                <p>Non autem dicta</p>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
               </div>
-              <p>Bio:<br>Prof. Joshua B. Tenenbaum is a Professor of Computational Cognitive Science in the Dept. of Brain and Cognitive Sciences at MIT, a principal investigator at MIT's Computer Science and Artificial Intelligence Laboratory (CSAIL), and a thrust leader in the Center for Brains, Minds and Machines (CBMM). His research centers on perception, learning, and common-sense reasoning in humans and machines, with the twin goals of better understanding human intelligence in computational terms and building more human-like intelligence in machines. The machine learning and artificial intelligence algorithms developed by his group are used by hundreds of science and engineering groups around the world. Tenenbaum received his PhD from MIT in 1999, and was an Assistant Professor at Stanford University from 1999 to 2002 before returning to MIT. His papers have received awards at the Cognitive Science (CogSci), Computer Vision and Pattern Recognition (CVPR), and NeurIPS, among others. He has given invited keynote talks at all of the major machine learning and artificial conferences. He is the recipient of the Early Investigator Award from the Society of Experimental Psychologists, the Distinguished Scientific Award for Early Career Contribution to Psychology from the American Psychological Association, and the Troland Research Award from the National Academy of Sciences, and is a fellow of the Society of Experimental Psychologists and the Cognitive Science Society. He has been involved as a program committee member/chair and/or has co-organized several workshops at machine learning, computer vision and cognitive science venues.</p>
             </div>
-          </div>  
+          </div>
+          -->
+
         </div>
+      </div>
+
+    </section>
 	
+	
+    <!--==========================
+      Schedule Section
+    ============================-->
+    <section id="schedule" class="section-with-bg">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+		  <h2>MAR 2025 Schedule</h2>
+		  <!-- <p>[in Nashville local time (CST)]</p> -->
+		  <!-- <p>[<a href="https://www.youtube.com/watch?v=AbH3o95cUHU&list=PLSOxIHrn0XhXvluyqvaK01SAlnBfyqmeL" target="_blank" rel="noopener noreferrer">YouTube Video Recording Playlist</a>]</p> -->
+		  
+		  <p>[More info about the schedule will be updated here]</p>
+		  <!-- <p>[Tentative; subject to change]</p> -->
+        </div>
+
+        <!--
+		<ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" href="#day-1" role="tab" data-toggle="tab">Day 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-2" role="tab" data-toggle="tab">Day 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-3" role="tab" data-toggle="tab">Day 3</a>
+          </li>
+        </ul>
+
+        <h3 class="sub-heading">Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia. Eius
+          necessitatibus voluptatem quis labore perspiciatis quia.</h3>
+        -->
 		
+<!--		
+        <div class="tab-content row justify-content-center">
+-->		
+          <!-- Schdule Day 1 -->
+<!--
+            <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
+
+			
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>01:40 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="img/organizers/Anoop_Cherian.jpg" alt="Anoop Cherian">
+                </div>
+                <h4>Opening Remarks <span>Anoop Cherian</span></h4>
+-->
+				<!-- <p>[<a href="https://youtu.be/AbH3o95cUHU?si=cRzhI0UngEDDTqMp" target="_blank" rel="noopener noreferrer">video</a>]</p> -->
+<!--
+              </div>
+            </div>
+
+			<div class="row schedule-item">
+              <div class="col-md-2"><time>01:45 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="img/speakers/Cordelia_Schmid.jpg" alt="Cordelia Schmid">
+                </div>
+                <h4>Keynote <span>Cordelia Schmid</span></h4>
+                <p>TBD.</p>
+-->
+				<!-- <p>[<a href="https://youtu.be/8gc8vVz8ikA?si=O28mJPM0FOmLAyBH" target="_blank" rel="noopener noreferrer">video</a>]</p> -->
+<!--
+              </div>
+            </div>
+			
+			<div class="row schedule-item">
+              <div class="col-md-2"><time>02:15 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="img/speakers/Brenden_Lake.jpg" alt="Brenden Lake">
+                </div>
+                <h4>Keynote <span>Brenden Lake</span></h4>
+                <p>TBD.</p>
+-->				
+				<!-- <p>[<a href="https://drive.google.com/file/d/1KIo0sRQPfES4A5n3mD39FrJ3-EtHKpg-/view?usp=sharing" target="_blank" rel="noopener noreferrer">slides</a>]</p> -->
+				<!-- <p>[<a href="https://youtu.be/8gc8vVz8ikA?si=O28mJPM0FOmLAyBH" target="_blank" rel="noopener noreferrer">video</a>]</p> -->
+<!--
+              </div>
+            </div>
+			
+			<div class="row schedule-item">
+              <div class="col-md-2"><time>02:45 PM</time></div>
+              <div class="col-md-10">
+                <h4><a href="#spotlight">Spotlight Paper Presentation</a> <span></span></h4>
+                <p>Zhenhailong Wang et al., Visually Descriptive Language Model for Vector Graphics Reasoning.</p>
+				<p>Sadegh Rahmaniboldaji et al., Human vs. Machine Minds: Ego-Centric Action Recognition Compared.</p>
+				<p>Yiqiao Huang et al., Boosting Multimodal Reasoning with Implicit Chain-of-Vision Finetuning.</p>
+				<p>Zhangquan Chen et al., VisRL: Intention-Driven Visual Perception via Reinforced Reasoning.</p>
+-->
+				<!-- <p>[<a href="https://youtu.be/nQcjDSbNOxs?si=lzdao85pqOlCldOy" target="_blank" rel="noopener noreferrer">video</a>]</p> -->
+<!--
+              </div>
+            </div>
+			
+			<div class="row schedule-item">
+              <div class="col-md-2"><time>03:15 PM</time></div>
+              <div class="col-md-10">
+                <h4>Coffee Break</h4>
+              </div>
+            </div>
+			
+			<div class="row schedule-item">
+              <div class="col-md-2"><time>03:35 PM</time></div>
+              <div class="col-md-10">
+                <h4><a href="#spotlight">Spotlight Paper Presentation</a> <span></span></h4>
+                <p>Tan-Hanh Pham et al., SilVar-Med: A Speech-Driven Visual Language Model for Explainable Abnormality Detection in Medical Imaging.</p>
+				<p>Aniket Rajiv Didolkar et al., CTRL-O: Language-Controllable Object-Centric Visual Representation Learning.</p>
+				<p>Mohammadmostafa Rostamkhani et al., Illusory VQA: Benchmarking and Enhancing Multimodal Models on Visual Illusions.</p>
+				<p>Rabiul Awal et al., WebMMU: A Benchmark for Multimodal Multilingual Website Understanding and Code Generation.</p>
+-->
+				<!-- <p>[<a href="https://youtu.be/nQcjDSbNOxs?si=lzdao85pqOlCldOy" target="_blank" rel="noopener noreferrer">video</a>]</p> -->
+<!--
+              </div>
+            </div>
+			
+			<div class="row schedule-item">
+              <div class="col-md-2"><time>04:00 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="img/speakers/Heng_Ji.jpg" alt="Heng Ji">
+                </div>
+                <h4>Keynote <span>Heng Ji</span></h4>
+                <p>TBD.</p>
+-->				
+				<!-- <p>[<a href="https://drive.google.com/file/d/1KIo0sRQPfES4A5n3mD39FrJ3-EtHKpg-/view?usp=sharing" target="_blank" rel="noopener noreferrer">slides</a>]</p> -->
+				<!-- <p>[<a href="https://youtu.be/8gc8vVz8ikA?si=O28mJPM0FOmLAyBH" target="_blank" rel="noopener noreferrer">video</a>]</p> -->
+<!--
+              </div>
+            </div>
+			
+			<div class="row schedule-item">
+              <div class="col-md-2"><time>04:30 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="img/speakers/Rishabh_Agarwal.jpg" alt="Rishabh Agarwal">
+                </div>
+                <h4>Keynote <span>Rishabh Agarwal</span></h4>
+                <p>TBD.</p>
+-->				
+				<!-- <p>[<a href="https://drive.google.com/file/d/1KIo0sRQPfES4A5n3mD39FrJ3-EtHKpg-/view?usp=sharing" target="_blank" rel="noopener noreferrer">slides</a>]</p> -->
+				<!-- <p>[<a href="https://youtu.be/8gc8vVz8ikA?si=O28mJPM0FOmLAyBH" target="_blank" rel="noopener noreferrer">video</a>]</p> -->
+<!--
+              </div>
+            </div>
+-->
+<!--			
+			<div class="row schedule-item">
+              <div class="col-md-2"><time>10:15 AM</time></div>
+              <div class="col-md-10">
+                <h4><a href="#oral">Oral Paper Presentation</a> <span>Eunice Yiu et al.</span></h4>
+                <p>KiVA: Kid-inspired Visual Analogies for Testing Large Multimodal Models.</p>
+-->
+				<!-- <p>[<a href="https://youtu.be/nQcjDSbNOxs?si=lzdao85pqOlCldOy" target="_blank" rel="noopener noreferrer">video</a>]</p> -->
+<!--
+              </div>
+            </div>
+			
+			<div class="row schedule-item">
+              <div class="col-md-2"><time>10:25 AM</time></div>
+              <div class="col-md-10">
+                <h4><a href="#oral">Oral Paper Presentation</a> <span>Sullam Jeoung et al.</span></h4>
+                <p>AVUA: Adaptive Video Understanding Agent Enhancing efficiency with dynamic frame sampling and feedback-driven reasoning.</p>
+-->
+				<!-- <p>[<a href="https://youtu.be/nQcjDSbNOxs?si=lzdao85pqOlCldOy" target="_blank" rel="noopener noreferrer">video</a>]</p> -->
+<!--
+              </div>
+            </div>
+			
+			<div class="row schedule-item">
+              <div class="col-md-2"><time>10:35 AM</time></div>
+              <div class="col-md-10">
+                <h4><a href="#oral">Oral Paper Presentation</a> <span>Mikel Bober-Irizar et al.</span></h4>
+                <p>Neural Networks for Abstraction & Reasoning.</p>
+-->
+				<!-- <p>[<a href="https://youtu.be/nQcjDSbNOxs?si=lzdao85pqOlCldOy" target="_blank" rel="noopener noreferrer">video</a>]</p> -->
+<!--
+              </div>
+            </div>
+			
+			<div class="row schedule-item">
+              <div class="col-md-2"><time>11:00 AM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="img/speakers/Ranjay_Krishna.png" alt="Ranjay Krishna">
+                </div>
+                <h4>Keynote <span>Ranjay Krishna</span></h4>
+                <p>Prioritizing Perception in Multimodal Language Models.</p>
+-->
+				<!-- <p>[<a href="https://youtu.be/o5JQ_iq-PcU?si=5wTu2YqpSX5X-Tp3" target="_blank" rel="noopener noreferrer">video</a>]</p> -->
+<!--
+              </div>
+            </div>
+			
+			<div class="row schedule-item">
+              <div class="col-md-2"><time>12:15 PM</time></div>
+              <div class="col-md-10">
+                <h4>Lunch Break</h4>
+              </div>
+            </div>
+			
+			<div class="row schedule-item">
+              <div class="col-md-2"><time>01:30 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="img/speakers/Sergey_Levine.png" alt="Sergey Levine">
+                </div>
+                <h4>Keynote <span>Sergey Levine</span></h4>
+                <p>Training Robots to Think Harder.</p>
+				<p>[<a href="https://drive.google.com/file/d/1E_NolnSuWDJeVNySZGMNg_BhkNztH9DN/view?usp=sharing" target="_blank" rel="noopener noreferrer">slides</a>]</p>
+-->
+				<!-- <p>[<a href="https://youtu.be/o5JQ_iq-PcU?si=5wTu2YqpSX5X-Tp3" target="_blank" rel="noopener noreferrer">video</a>]</p> -->
+<!--
+              </div>
+            </div>
+-->			
+<!--			
+			<div class="row schedule-item">
+              <div class="col-md-2"><time>01:30 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="img/speakers/Oriol_Vinyals.jpg" alt="Oriol Vinyals">
+                </div>
+                <h4>Keynote <span>Oriol Vinyals</span></h4>
+                <p>TBD.</p>
+-->
+				<!-- <p>[<a href="https://youtu.be/o5JQ_iq-PcU?si=5wTu2YqpSX5X-Tp3" target="_blank" rel="noopener noreferrer">video</a>]</p> -->
+<!--
+              </div>
+            </div>
+-->			
+			
+<!--			
+			<div class="row schedule-item">
+              <div class="col-md-2"><time>02:15 PM</time></div>
+              <div class="col-md-10">
+                <h4><a href="#poster">Poster Session</a> & Coffee Break</h4>
+              </div>
+            </div>
+			
+			<div class="row schedule-item">
+              <div class="col-md-2"><time>04:15 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="img/speakers/David_Duvenaud.jpg" alt="David Duvenaud">
+                </div>
+                <h4>Keynote <span>David Duvenaud</span></h4>
+                <p>LLM Posteriors over Functions as A New Output Modality.</p>
+				<p>[<a href="https://docs.google.com/presentation/d/1RHv1hTeE2eSZtlWJUyBvJNL1auurHAgS/edit?usp=sharing&ouid=115014473775905842008&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">slides</a>]</p>
+-->
+				<!-- <p>[<a href="https://youtu.be/8gc8vVz8ikA?si=O28mJPM0FOmLAyBH" target="_blank" rel="noopener noreferrer">video</a>]</p> -->
+<!--
+              </div>
+            </div>
+			
+			<div class="row schedule-item">
+              <div class="col-md-2"><time>05:00 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="img/organizers/Kuan-Chuan_Peng.jpg" alt="Kuan-Chuan Peng">
+                </div>
+                <h4>Closing Remarks <span>Kuan-Chuan Peng</span></h4>
+-->
+				<!-- <p>[<a href="https://youtu.be/AbH3o95cUHU?si=cRzhI0UngEDDTqMp" target="_blank" rel="noopener noreferrer">video</a>]</p> -->
+<!--
+              </div>
+            </div>
+			
+			<div class="row schedule-item">
+              <div class="col-md-2"><time>05:05 PM - 06:00 PM</time></div>
+              <div class="col-md-10">
+                <h4><a href="#spotlight">Poster Session</a> <span></span></h4>
+				<p>All the accepted papers.</p>
+
+              </div>
+            </div>
+			
+-->			
+        </div>
 
       </div>
 
     </section>
+	
+	
+	<!--==========================
+      Call for Paper
+    ============================-->
+
+   <section id="submission" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <br><br>
+		  <h2>Submissions</h2>
+	  
+		  <p>[<a href="pdf/MAR-NeurIPS-2025-CfP.pdf" target="_blank" rel="noopener noreferrer">Call for Contributions PDF</a>]</p>
+
+		  <!-- <p>[More info about the call for papers will be updated here]</p> -->
+		</div>
+<!--		
+			<p>The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.</p>
+-->
+		  <h3 class="mb-3 text-left"><b>Call for Contributions</b></h3>
+				
+			<p>Large AI frameworks have been increasing in their data modeling abilities at an ever more vigor in recent times, with compelling applications emerging frequently, many of which may even appear to challenge human intelligence. Yet despite such impressive performance, there remain open questions about whether these models include the foundations of general intelligence, or whether they perform these tasks without human-like understanding. This necessitates development of better tools for assessing these models in tandem with developing the models themselves.</p>
+
+			<p>This workshop focuses on the topic of multimodal algorithmic reasoning, where an agent needs to assimilate information from multiple modalities towards deriving reasoning algorithms for complex problem solving. Some real-world examples of such problems include: i) chain-of-thought reasoning using multiple modalities, ii) solving Olympiad-type vision-and-language problems, and iii) distributed agentic reasoning and tool use, among others. Previous editions of this workshop emphasized the challenges in building generalizable AI towards solving vision-and-language problems. However, in the last year, we have seen rapid advances in AI capabilities that better bridge across modalities, bringing both optimism about superhuman capabilities and skepticism about the limits of current approaches. This is an opportune moment to explore critical challenges, including new architectures for visual reasoning, data generation via self-play, and the theoretical limits of reasoning in large models. Through talks from outstanding researchers and faculty, we hope to dive deep into this exciting topic at the intersection of theory, multimodal machine learning and cognitive science to understand what we have achieved thus far in machine intelligence and what we are lacking in relation to the human way of thinking, towards finding the missing rungs on the ladder to truly intelligent reasoning.</p>
+
+		<br>
+			
+		<h3 class="mb-3 text-left"><b>Important Dates</b></h3>
+			Paper submission deadline: August 31, 2025 (AoE time).&nbsp;<br>Notification to authors: September 22, 2025.<br>Camera-ready deadline: 11:59PM on November 3, 2025 (Pacific Time).
+
+			<!--
+			<br>(Optional) Rebuttal starts: September 26, 2024.<br>(Optional) Rebuttal deadline: September 27, 2024.
+			-->
+
+			<br><br><br>
+			
+		<h3 class="mb-3 text-left"><b>Topics</b></h3>
+			We invite submissions of original and high-quality research papers in the topics related to multimodal algorithmic reasoning. The topics for MAR-NeurIPS 2025 include, but are not limited to:<br>
+            <ul class="">
+				<li class="text-left">Multimodal algorithmic and mathematical reasoning.</li>
+				<li class="text-left">Representations of algorithms for neural processing.</li>
+				<li class="text-left">Comparisons between AI and human problem solving, including: i) perspectives from psychology and neuroscience, ii) children’s cognitive development, and iii) limits of reasoning in large models.</li>
+				<li class="text-left">Extreme generalization to new tasks and few-shot concept induction.</li>
+				<li class="text-left">Shortcomings in AI models.</li>
+				<li class="text-left">Agentic AI, including multi-agent collaboration and distributed problem solving.</li>
+				<li class="text-left">Scaling laws and efficient algorithms for improving reasoning at test-time.</li>
+				<li class="text-left">Foundation models of intelligence, including vision, language, and other modalities.</li>
+				<li class="text-left">Physical reasoning and planning using language models.</li>
+				<li class="text-left">Multimodal AI applications, including new tasks, datasets, benchmarks, and models for multimodal reasoning.</li>
+            </ul>
+			<br>
+			
+		<h3 class="mb-3 text-left"><b>Submission Instructions</b></h3>
+
+			We are inviting submissions of original and previously unpublished works.
+			<ul class="">
+                <li class="text-left">All submissions are handled via the workshop’s <a href="https://cmt3.research.microsoft.com/MARNIPS2025">CMT website</a>.</li>
+				<li class="text-left"> Submissions should be made in PDF format and must follow the MAR 2025@NeurIPS submission style provided <a href="https://marworkshop.github.io/neurips25/mar25_neurips_latex_template.zip">here</a> (except for the NeurIPS checklist, which is optional).</li>
+				<li class="text-left">Submissions should not exceed <b>4 pages</b> in length (excluding references).</li>
+				<li class="text-left">Authors may upload an optional Appendix, containing additional details, proofs, videos, images, etc. in a separate zip file (with a max of 50MB in size); the deadline for submitting these supplementary materials is the same as that for the main paper.</li>
+				<li class="text-left">All submissions should maintain author anonymity and should abide by the NeurIPS conference guidelines for double-blind review.</li>
+				<li class="text-left">Accepted papers will be presented as either an oral, spotlight, or poster presentation. At least one author of each accepted submission must present the paper at the workshop <b>in-person</b>.</li>
+                <li class="text-left">Presentation of accepted papers at our workshop will follow the same policy as that for accepted papers at the NeurIPS 2025 main conference.</li>
+				<li class="text-left">Accepted papers will be made publicly accessible on the workshop website shortly after the camera-ready deadline, but will not have any archival proceedings.</li>
+				<li class="text-left">The submitting authors are expected to also be reviewers for the workshop, if needed.</li>
+            </ul>
+			
+			<br>
+			
+		<h3 class="mb-3 text-left"><b>Contact</b></h3>
+		Email: <a href="mailto:smart101@googlegroups.com">smart101@googlegroups.com</a> 
+		
+		
+			</span><br>
+      
+      </div>
+
+    </section>
+
+    <br><br>
+	
+	
+	<!--==========================
+      Accepted Papers
+    ============================-->
+
+    <section id="papers" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <br><br>
+		  <h2>Accepted Papers</h2>
+
+		  <!-- <p>[<a href="https://openaccess.thecvf.com/ICCV2023_workshops/VLAR" target="_blank" rel="noopener noreferrer">Workshop Proceedings</a>]</p> -->
+<!--		  		  
+		  <p>All the accepted papers will be presented in the poster session. The number in front of each paper is the poster number.</p>
+-->
+		  </div>
+		  
+            <h3 class="display-5 text-left" id="oral"><br><b>Accepted Papers</b></h3>
+			<ul class="">
+				
+				<li class="text-left"><i>ChartAgent: A Multimodal Agent for Complex Visual Question Answering in Charts.</i>
+				<br>Kaur, Rachneet; Srishankar, Nishan; Zeng, Zhen; Ganesh, Sumitra; Veloso, Manuela
+				</li>
+				<br>
+				
+				<li class="text-left"><i>Online Reinforcement Learning for Autoformalization.</i>
+				<br>Sorg, Simon; Li, Wenda; Banerjee, Soumya
+				</li>
+				<br>
+				
+				<li class="text-left"><i>DEPART: Hierarchical Multi-Agent System for Multi-Turn Interaction.</i>
+				<br>Hsu, Hao-Lun; Xu, Jing; Vichare, Nikhil; Carbone, Francesco; Pajic, Miroslav; Carenini, Giuseppe
+				</li>
+				<br>
+				
+				<li class="text-left"><i>Watch Wider and Think Deeper: Collaborative Cross-modal Chain-of-Thought for Complex Visual Reasoning.</i>
+				<br>Lu, Wenting; Zhu, Didi; Shen, Tao; Zhu, Donglin; Ye, Ayong; Wu, Chao
+				</li>
+				<br>
+				
+				<li class="text-left"><i>Exploring Ego-Exo View-Invariant Temporal Understanding in Video LLMs.</i>
+				<br>Jung, Minjoon; Xiao, Junbin; Kim, Junghyun; Zhang, Byoung-Tak; Yao, Angela 
+				</li>
+				<br>
+				
+				<li class="text-left"><i>Audio Flamingo Sound-CoT: Improving Chain-of-Thought Reasoning in Sound Understanding.</i>
+				<br>Kong, Zhifeng; Goel, Arushi; Santos, João Felipe; Ghosh, Sreyan; Valle, Rafael; Ping, Wei; Catanzaro, Bryan
+				</li>
+				<br>
+
+				<li class="text-left"><i>Mitigating Hallucination in Multimodal LLMs with Layer Contrastive Decoding.</i>
+				<br>Tong, Bingkui; Xia, Jiaer; Zhou, Kaiyang
+				</li>
+				<br>
+								
+				<li class="text-left"><i>HoT: Highlighted Chain of Thought for Referencing Sup- porting Facts from Inputs.</i>
+				<br>Nguyen, Tin; Nguyen, Anh
+				</li>
+				<br>
+				
+				<li class="text-left"><i>Aha Moment Revisited: Are Vision Language Models Truly Capable of Self-verification in Inference Scaling?</i>
+				<br>Wu, Mingyuan; Li, Meitang; Yang, Jingcheng; Jiang, Jize; Yan, Kaizhuo; Li, Zhaoheng; Yu, Hanchao; Zhang, Minjia; Nahrstedt, Klara
+				</li>
+				<br>
+				
+				<li class="text-left"><i>Improvisational Reasoning with Vision-Language Models for Grounded Procedural Planning.</i>
+				<br>Rahman, Md Masudur; Zhuo, Yupeng; Wachs, Juan
+				</li>
+				<br>
+				
+				<li class="text-left"><i>DreamPRM: Domain-Reweighted Process Reward Model for Multimodal Reasoning.</i>
+				<br>Cao, Qi; Wang, Ruiyi; Zhang, Ruiyi; Xie, Pengtao 
+				</li>
+				<br>
+
+				<li class="text-left"><i>Do LLMs Benefit from User and Item Embeddings in Recommendation Tasks?</i>
+				<br>Hossain, Mir Rayat Imtiaz; Feng, Leo ; Sigal, Leonid; Ahmed, Mohamed Osama
+				</li>
+				<br>
+				
+				<li class="text-left"><i>MET-Bench: Multimodal Entity Tracking for Evaluating the Limitations of Vision-Language and Reasoning Models.</i>
+				<br>Cohen, Vanya; Mooney, Raymond
+				</li>
+				<br>
+
+				<li class="text-left"><i>PersonaX: Multimodal Datasets with LLM-Inferred Behavior Traits.</i>
+				<br>Li, Loka; Wong, Yu Kang; Fu, Minghao; Chen, Guangyi; Chen, Zhenhao; Luo, Gongxu; Sun, Yuewen; Khan, Salman; Spirtes, Peter; Zhang, Kun
+				</li>
+				<br>
+				
+				<li class="text-left"><i>Symbolic Graphics Programming with Large Language Models.</i>
+				<br>Chen, Yamei; Zhang, Haoquan; Huang, Yangyi; Qiu, Zeju; Zhang, Kaipeng; Wen, Yandong; Liu, Weiyang
+				</li>
+				<br>
+				
+				<li class="text-left"><i>Visual Abstract Thinking Empowers Multimodal Reasoning.</i>
+				<br>Liu, Dairu; Wang, Ziyue; Ruan, Minyuan; Luo, Fuwen; Chen, Chi; Li, Peng; Liu, Yang
+				</li>
+				<br>
+				
+				<li class="text-left"><i>Investigating Abstraction Capabilities of the o3 Model Using Textual and Visual Modalities.</i>
+				<br>Beger, Claas; Fu, Shuhao; Yi, Ryan; Moskvichev, Arseny; Mitchell, Melanie
+				</li>
+				<br>
+				
+				<li class="text-left"><i>SlideAgent: Hierarchical Agentic Framework for Multi-Page Slide Deck Understanding.</i>
+				<br>Jin, Yiqiao; Kaur, Rachneet; Zeng, Zhen; Ganesh, Sumitra
+				</li>
+				<br>
+				
+				<li class="text-left"><i>MUSEG: Reinforcing Video Temporal Understanding via Timestamp-Aware Multi-Segment Grounding.</i>
+				<br>Luo, Fuwen; Lou, Shengfeng; Chen, Chi; Wang, Ziyue; Li, Chenliang; Shen, Weizhou; Guo, Jiyue; Li, Peng; Yan, Ming; Huang, Fei; Liu, Yang 
+				</li>
+				<br>
+
+				<li class="text-left"><i>DA-CoTD: Efficient Chain-of-Thought Reasoning with Difficulty-Aware CoT-Distillation.</i>
+				<br>Waheed, Abdul; Mitra, Chancharik; Wang, Laurie
+				</li>
+				<br>
+				
+				<li class="text-left"><i>What Makes a Good Generated Image? Studying Human & LLM Image Preference Alignment.</i>
+				<br>Parthasarathy, Rishab; Collins, Jasmine; Stephenson, Cory
+				</li>
+				<br>
+
+				<li class="text-left"><i>Hyperphantasia: A Benchmark for Evaluating the Mental Visualization Capabilities of Multimodal LLMs.</i>
+				<br>Sepehri, Mohammad Shahab; Tinaz, Berk; Fabian, Zalan; Soltanolkotabi, Mahdi
+				</li>
+				<br>
+				
+				<li class="text-left"><i>Data Scaling Isn't Enough: Towards Improving Compositional Reasoning in Video-Language Models.</i>
+				<br>Kim, Kibum; Min, Kyle; Park, Chanyoung
+				</li>
+				<br>
+				
+				<li class="text-left"><i>MLPEdit-Bench: Benchmarking Reasoning-Based Layer-wise Poster Editing.</i>
+				<br>Lin, Zihao; Zhu, Wanrong; Gu, Jiuxiang; Kil, Jihyung; Tensmeyer, Chris; Zhang, Ruiyi; Huang, Lifu; Morariu, Vlad ; Sun, Tong
+				</li>
+				<br>
+				
+				<li class="text-left"><i>An Evaluation of Interleaved Instruction Tuning on Semantic Reasoning Performance in an Audio MLLM.</i>
+				<br>Liu, Jiawei; Çoban, Enis; Schevchenko, Zarina; Tang, Hao; Zhu, Zhigang; Mandel, Michael; Devaney, Johanna
+				</li>
+				<br>
+				
+				<li class="text-left"><i>When One Modality Sabotages the Others: A Diagnostic Lens on Multimodal Reasoning.</i>
+				<br>Zhang, Chenyu; Kim, Minsol; Ghorbani, Shohreh; Wu, Jingyao; Maes, Patricia; Liang, Paul
+				</li>
+				<br>
+				
+				<li class="text-left"><i>Text-to-Scene with Large Reasoning Models.</i>
+				<br>Berdoz, Frédéric; Lanzerdörfer, Luca; Tuniga, Nick; Wattenhofer, Roger 
+				</li>
+				<br>
+
+				<li class="text-left"><i>Learning Visual Concepts via Vision Language Programs.</i>
+				<br>Wüst, Antonia; Shindo, Hikaru; Stammer, Wolfgang; Dhami, Devendra Singh; Kersting, Kristian
+				</li>
+				<br>
+				
+				<li class="text-left"><i>Sphinx: Visual Perception and Reasoning Gym.</i>
+				<br>Alam, Md Tanvirul; Chae, Justin; Rastogi, Nidhi
+				</li>
+				<br>
+
+				<li class="text-left"><i>ASCII-Bench: A Symbolic Benchmark for Multimodal Structural Reasoning.</i>
+				<br>Luo, Kerry; Peguero, Joshua; Fu, Michael; Malik, Husnain; Patil, Anvay; Lin, Joyce; Van Overborg, Megan; Sarmiento, Ryan; Zhu, Kevin
+				</li>
+				<br>
+				
+			</ul>
+			
+			
+
+<!--			
+			<h3 class="display-5 text-left" id="oral"><br><b>Spotlight Papers</b></h3>
+			<ul class="">
+				
+				<li class="text-left">[1] <i><a href="https://drive.google.com/file/d/1m1oHvdbVvGKNXNFZ8yWUTwmbMZXYMe-T/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Visually Descriptive Language Model for Vector Graphics Reasoning.</a></i>
+				<br>Wang, Zhenhailong; Hsu, Joy; Wang, Xingyao; Huang, Kuan-Hao; Li, Manling; Wu, Jiajun; Ji, Heng
+				<br>[<a href="https://drive.google.com/file/d/1kKCYYSv0QP8PjGNwvmGwEDi-tbQDt1Vj/view?usp=drive_link" target="_blank" rel="noopener noreferrer">supplement</a>]
+				</li>
+				<br>
+				
+				<li class="text-left">[2] <i><a href="https://drive.google.com/file/d/1GNpEoo8zEWOE5bj38Fg-D7dw1u4ydG1x/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Human vs. Machine Minds: Ego-Centric Action Recognition Compared.</a></i>
+				<br>Rahmaniboldaji, Sadegh; Rybansky, Filip; Vuong, Quoc; Guerin, Frank; Gilbert, Andrew
+				</li>
+				<br>
+				
+				<li class="text-left">[3] <i><a href="https://drive.google.com/file/d/10rZay5F5rmeMAqmSiELADv2ChUJPkW_K/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Boosting Multimodal Reasoning with Implicit Chain-of-Vision Finetuning.</a></i>
+				<br>Huang, Yiqiao; Chen, Zhaorun; Qi, He; Zhang, Haopeng; Yu, Hanchao; Zhao, Zhuokai
+				</li>
+				<br>
+				
+				<li class="text-left">[4] <i><a href="https://drive.google.com/file/d/14cIu5tnwJu1lb0qXuOixqT8tytCPjWHx/view?usp=drive_link" target="_blank" rel="noopener noreferrer">VisRL: Intention-Driven Visual Perception via Reinforced Reasoning.</a></i>
+				<br>Chen, Zhangquan; Luo, Xufang; Li, Dongsheng
+				</li>
+				<br>
+				
+				<li class="text-left">[5] <i><a href="https://drive.google.com/file/d/1Tu56lV9EJXDKOrcHV3mwXA6SgcUxLSGS/view?usp=drive_link" target="_blank" rel="noopener noreferrer">SilVar-Med: A Speech-Driven Visual Language Model for Explainable Abnormality Detection in Medical Imaging.</a></i>
+				<br>Pham, Tan-Hanh; Bui, Trong-Duong ; Quang, Minh Luu ; Pham, Tan Huong; Ngo, Chris ; Hy, Truong Son 
+				</li>
+				<br>
+
+				<li class="text-left">[6] <i><a href="https://drive.google.com/file/d/1WJHkTZOxgkxQrltODE6Cud0TDOi9lCVK/view?usp=drive_link" target="_blank" rel="noopener noreferrer">CTRL-O: Language-Controllable Object-Centric Visual Representation Learning.</a></i>
+				<br>Didolkar, Aniket Rajiv; Zadaianchuk, Andrii; Awal, Md Rabiul; Seitzer, Maximilian; Gavves,  Efstratios; Agrawal, Aishwarya
+				</li>
+				<br>
+				
+				<li class="text-left">[7] <i><a href="https://drive.google.com/file/d/166gyx2XbFBkrfroZibch0d-C00JnF3NE/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Illusory VQA: Benchmarking and Enhancing Multimodal Models on Visual Illusions.</a></i>
+				<br>Rostamkhani, Mohammadmostafa; Ansari, Baktash; Sabzevari, Hoorieh; Rahmani, Farzan; Eetemadi, Sauleh
+				<br>[<a href="https://drive.google.com/file/d/1eIWun7ERrcswuEBOeW2Sy_aKGE6baMwQ/view?usp=drive_link" target="_blank" rel="noopener noreferrer">supplement</a>]
+				</li>
+				<br>
+
+				<li class="text-left">[8] <i><a href="https://drive.google.com/file/d/1-A_hcc-rRNBvuF97F-pjM8q-KxIQeD-Q/view?usp=drive_link" target="_blank" rel="noopener noreferrer">WebMMU: A Benchmark for Multimodal Multilingual Website Understanding and Code Generation.</a></i>
+				<br>Awal, Rabiul; Massoud, Mahsa; Li, Zichao; Feizi, Aarash; Wang, Suyuchen; Pal, Christopher; Agrawal, Aishwarya; Vazquez, David; Reddy, Siva; Rodriguez, Juan; Taslakian, Perouz; Gella, Spandana ; Rajeswar, Sai
+				</li>
+				<br>
+				
+			</ul>
+			
+			
+			<h3 class="display-5 text-left" id="oral"><br><b>Poster Papers</b></h3>
+			<ul class="">
+				<li class="text-left">[9] <i><a href="https://drive.google.com/file/d/162vrSBrzaD5fWkK0Yd0XK6HDZ4ufThKV/view?usp=sharing" target="_blank" rel="noopener noreferrer">Exemplar Masking for Multimodal Incremental Learning.</a></i>
+				<br>Lee, Yi-Lun; Lee, Chen-Yu; Chiu, Wei-Chen; Tsai, Yi-Hsuan
+				<br>[<a href="https://drive.google.com/file/d/1X6k0uSu-_JuLdJG8ecEm1bpYmbB1dJdf/view?usp=drive_link" target="_blank" rel="noopener noreferrer">supplement</a>]
+				</li>
+				<br>
+				
+				<li class="text-left">[10] <i><a href="https://drive.google.com/file/d/1E7zHiSDhfgAYTf_f6SEDZF3TMQCgmelh/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Generalizing from SIMPLE to HARD Visual Reasoning: Can We Mitigate Modality Imbalance in VLMs?</a></i>
+				<br>Park, Simon; Panigrahi, Abhishek; Cheng, Yun; Yu, Dingli; Goyal, Anirudh; Arora, Sanjeev
+				</li>
+				<br>
+				
+				<li class="text-left">[11] <i><a href="https://drive.google.com/file/d/1dha8kTRiRtc-kO3QHlCnWs03DxFXvMgn/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Cap2Aug: Caption guided Image data Augmentation.</a></i>
+				<br>Roy, Aniket; Shah, Anshul; Shah, Ketul; Roy, Anirban; Chellappa, Rama 
+				</li>
+				<br>
+				
+				<li class="text-left">[12] <i><a href="https://drive.google.com/file/d/1GFD-9HZF8Xnmlt6uNjGJYWAzf31a7lDO/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Comparison Visual Instruction Tuning.</a></i>
+				<br>Lin, Wei; Mirza, Jehanzeb; Doveh, Sivan; Feris, Rogerio; Giryes, Raja; Hochreiter, Sepp; Karlinsky, Leonid
+				<br>[<a href="https://drive.google.com/file/d/12l2XPQQebRceW5dwtO9U45dm4FIk-NYO/view?usp=drive_link" target="_blank" rel="noopener noreferrer">supplement</a>]
+				</li>
+				<br>
+				
+				<li class="text-left">[13] <i><a href="https://drive.google.com/file/d/1bcOSg4ZFzppH4iPF9voWB-WMwtrR9L0f/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Contextual Self-paced Learning for Weakly Supervised Spatio-Temporal Video Grounding.</a></i>
+				<br>Kumar, Akash; Kira, Zsolt; Rawat, Yogesh S.
+				</li>
+				<br>
+				
+				<li class="text-left">[14] <i><a href="https://drive.google.com/file/d/1S1tLTF5Pobc_wnDXM-79IPds5LGJMLsP/view?usp=drive_link" target="_blank" rel="noopener noreferrer">STPro: Spatial and Temporal Progressive Learning for Weakly Supervised Spatio-Temporal Grounding.</a></i>
+				<br>Garg, Aaryan; Kumar, Akash; Rawat, Yogesh S.
+				</li>
+				<br>
+				
+				<li class="text-left">[15] <i><a href="https://drive.google.com/file/d/1wqCRMBCt7zAUUkwfZ3U5ioT3lEHgSjsp/view?usp=drive_link" target="_blank" rel="noopener noreferrer">CameraBench: Benchmarking Visual Reasoning in MLLMs via Photography.</a></i>
+				<br>Fang, I-Sheng; Chen, Jun-Cheng
+				</li>
+				<br>
+				
+				<li class="text-left">[16] <i><a href="https://drive.google.com/file/d/1DNJf7TM-4LncxnJky77fVzl2xuWxcPeC/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Exploring How Generative MLLMs Perceive More Than CLIP with the Same Vision Encoder.</a></i>
+				<br>Li, Siting; Koh, Pang Wei; Du, Simon
+				<br>[<a href="https://drive.google.com/file/d/1PPmug0Oo00841cPGN6WADUZTxQNHo-lI/view?usp=drive_link" target="_blank" rel="noopener noreferrer">supplement</a>]
+				</li>
+				<br>
+				
+				<li class="text-left">[17] <i><a href="https://drive.google.com/file/d/1sgk-Z8At6AXzsysa8yVFW4UrnA6FSfn0/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Integrating Frequency-Domain Representations with Low-Rank Adaptation in Vision-Language Models.</a></i>
+				<br>Khan, Md Azim; Gangopadhyay, Aryya; Wang, Jianwu
+				</li>
+				<br>
+				
+				<li class="text-left">[18] <i><a href="https://drive.google.com/file/d/1dZ9rwp82LKpL7VJwq4lMGiuBgrwi7PvW/view?usp=drive_link" target="_blank" rel="noopener noreferrer">OCC-MLLM-CoT-Alpha: Towards Multi-stage Occlusion Recognition Based on Large Language Models via 3D-Aware Supervision and Chain-of-Thoughts Guidance.</a></i>
+				<br>Wang, Chaoyi; Li, Baoqing; Di, Xinhan
+				</li>			
+				<br>
+				
+				<li class="text-left">[19] <i><a href="https://drive.google.com/file/d/1Mmrptp5Ykw_E4dVUWMLaDrKh8fpnuDv6/view?usp=sharing" target="_blank" rel="noopener noreferrer">Controlling Multimodal LLMs via Reward-guided Decoding.</a></i>
+				<br>Mañas, Oscar; D'Oro, Pierluca; Sinha,  Koustuv; Romero-Soriano, Adriana; Drozdzal, Michal; Agrawal, Aishwarya
+				</li>
+				<br>
+				
+			</ul>
+-->
+
+      </div>
+
+    </section>
+
+	
+	
+	<!--==========================
+      Award
+    ============================-->
+<!--
+    <section id="award" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <br><br>
+		  <h2>Awards</h2>
+		</div>
+-->		  
+          <!-- <h3 class="display-5 text-left"><br><b>Accepted Papers</b></h3> -->
+<!--
+          <h3 class="display-5 text-left"><br><b>Honorable Mention</b></h3>
+			  <ul class="">
+                <li class="text-left"><i><a href="https://openaccess.thecvf.com/content/ICCV2023W/VLAR/html/Sammani_Uni-NLX_Unifying_Textual_Explanations_for_Vision_and_Vision-Language_Tasks_ICCVW_2023_paper.html" target="_blank" rel="noopener noreferrer">Uni-NLX: Unifying Textual Explanations for Vision and Vision-Language Tasks</a>.</i>
+				<br>Fawaz Sammani, Nikos Deligiannis.
+				</li>
+				<br>
+				<li class="text-left"><i><a href="https://openaccess.thecvf.com/content/ICCV2023W/VLAR/html/Li_Iterative_Robust_Visual_Grounding_with_Masked_Reference_Based_Centerpoint_Supervision_ICCVW_2023_paper.html" target="_blank" rel="noopener noreferrer">Iterative Robust Visual Grounding with Masked Reference based Centerpoint Supervision</a>.</i>
+				<br>Menghao Li, Chunlei Wang, Wenquan Feng, Shuchang Lyu, Guangliang Cheng, Xiangtai Li, Binghao Liu, Qi Zhao.
+				</li>
+              </ul>
+		  
+		  <h3 class="display-5 text-left"><br><b>Best Paper Award</b></h3>
+			  <ul class="">
+				<li class="text-left"><i><a href="https://openaccess.thecvf.com/content/ICCV2023W/VLAR/html/de_Oliveira_Souza_SelfGraphVQA_A_Self-Supervised_Graph_Neural_Network_for_Scene-Based_Question_Answering_ICCVW_2023_paper.html" target="_blank" rel="noopener noreferrer">SelfGraphVQA: A Self-Supervised Graph Neural Network for Scene-based Question Answering</a>.</i>
+				<br>Bruno Cesar de Oliveira Souza, Marius Aasan, Helio Pedrini, Adín Ramírez Rivera.
+				</li>
+              </ul> 
+			  
+		  <h3 class="display-5 text-left"><br><b>Challenge Award</b></h3>
+			  <ul class="">
+                <li class="text-left"><i><a href="https://arxiv.org/abs/2310.06440" target="_blank" rel="noopener noreferrer"><i>Solution for SMART-101 Challenge of ICCV Multi-modal Algorithmic Reasoning Task 2023</a>.</i>
+				<br>Xiangyu Wu, Yang Yang, Shengdong Xu, Yifeng Wu, Qingguo Chen, Jianfeng Lu.
+				</li>
+				
+              </ul>  
+
+      </div>
+	<br><br>
+    </section>
+-->	
+
+    <!--==========================
+      Gallery Section
+    ============================-->
+<!--
+    <section id="direction" class="wow fadeInUp">
+
+      <div class="container">
+        <div class="section-header">
+          <h2>Award Ceremony Photos</h2>
+        </div>
+      </div>
+
+      <div class="owl-carousel gallery-carousel">
+        <a href="img/awards/Fawaz.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/awards/Fawaz.jpg" alt=""></a>
+        <a href="img/awards/Chunlei.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/awards/Chunlei.jpg" alt=""></a>
+        <a href="img/awards/Bruno.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/awards/Bruno.jpg" alt=""></a>
+        <a href="img/awards/MK.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/awards/MK.jpg" alt=""></a>
+		<a href="img/awards/SMART-101-award.jpg" class="venobox" data-gall="gallery-carousel"><img src="img/awards/SMART-101-award.jpg" alt=""></a>
+      </div>
+
+    </section>
+-->
+	
+
+    <!--==========================
+      Venue Section
+    ============================-->
+    <section id="venue" class="wow fadeInUp">
+
+      <div class="container-fluid">
+
+        <div class="section-header">
+          <h2>MAR 2025 Venue</h2>
+          <!-- <p>Event venue location info and gallery</p> -->
+        </div>
+
+        <div class="row no-gutters">
+		  <div class="col-lg-6 venue-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3357.2682962653303!2d-117.16010279999999!3d32.705497699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d953574be55d8b%3A0x568846370a748ca5!2sSan%20Diego%20Convention%20Center!5e0!3m2!1sen!2sus!4v1748551171314!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.684398477764!2d-122.33425157360666!3d47.612826121190366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54901590bc4ec333%3A0xc2e05fa5d6af112f!2sSeattle%20Convention%20Center%20%7C%20Summit!5e0!3m2!1sen!2sae!4v1703619143858!5m2!1sen!2sae" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+          </div>
+		  <div class="col-lg-6 venue-info"> <!--<div class="col-lg-6 venue-info"> -->
+            <div class="row justify-content-center">
+              <div class="col-11 col-lg-8">
+                <h3>San Diego Convention Center, San Diego, CA, USA</h3>
+                <p>MAR 2025 will be held in the Upper Level Room 11AB at San Diego Convention Center, San Diego, CA, USA on December 7, 2025.</p>
+				<!-- <p>MAR 2024 will be held at the Room S2 of the Paris Convention Centre at 08:45 AM - 05:45 PM CET on October 3, 2023. (<a href="https://www.youtube.com/channel/UCzlKSQ66EGrg8MupoqC1shA/live" target="_blank" rel="noopener noreferrer">YouTube Live Stream Link</a>)</p> -->
+              </div>
+            </div>
+          </div>
+
+<!--		
+		<div class="row no-gutters">  
+		  <div class="col-lg-6 venue-map">
+		      <img src="img/venue1.jpg" alt="venue" class="img-fluid" style="width:100%">
+		  </div>
+-->
+          
+        </div>
+
+      </div>
+
+      <!--
+	  <div class="container-fluid venue-gallery-container">
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/1.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/1.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/2.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/2.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/3.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/3.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/4.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/4.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/5.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/5.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/6.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/6.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/7.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/7.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/8.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/8.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+	  -->
+
+    </section>
+
+    <!--==========================
+      Hotels Section
+    ============================-->
+<!--
+    <section id="hotels" class="section-with-bg wow fadeInUp">
+
+      <div class="container">
+        <div class="section-header">
+          <h2>Hotels</h2>
+          <p>Her are some nearby hotels</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="hotel">
+              <div class="hotel-img">
+                <img src="img/hotels/1.jpg" alt="Hotel 1" class="img-fluid">
+              </div>
+              <h3><a href="#">Hotel 1</a></h3>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <p>0.4 Mile from the Venue</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="hotel">
+              <div class="hotel-img">
+                <img src="img/hotels/2.jpg" alt="Hotel 2" class="img-fluid">
+              </div>
+              <h3><a href="#">Hotel 2</a></h3>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-full"></i>
+              </div>
+              <p>0.5 Mile from the Venue</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="hotel">
+              <div class="hotel-img">
+                <img src="img/hotels/3.jpg" alt="Hotel 3" class="img-fluid">
+              </div>
+              <h3><a href="#">Hotel 3</a></h3>
+              <div class="stars">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <p>0.6 Mile from the Venue</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+-->
+
+	
+    <!--==========================
+      Sponsors Section
+    ============================-->
+
+    <section id="supporters" class="section-with-bg wow fadeInUp">
+
+      <div class="container">
+        <div class="section-header">
+          <h2>Sponsor</h2>
+        </div>
+
+        <div class="row no-gutters supporters-wrap clearfix">
+
+          <!-- <div class="col-lg-6 col-md-8 col-xs-6"> -->
+		  <div class="col-lg-12 col-md-16 col-xs-12">
+            <div class="supporter-logo">
+              <a href="https://merl.com/" target="_blank" rel="noopener noreferrer"><img src="img/sponsors/MERL_logo.jpg" class="img-fluid" alt=""></a>
+            </div>
+          </div>
+          
+ <!--        
+          <div class="col-lg-6 col-md-8 col-xs-6">
+            <div class="supporter-logo">
+              <a href="https://mathkangaroo.org/mks/" target="_blank" rel="noopener noreferrer"><img src="img/sponsors/Math_Kangaroo_logo.png" class="img-fluid" alt=""></a>
+            </div>
+          </div>
+         
+          <div class="col-lg-6 col-md-8 col-xs-6">
+            <div class="supporter-logo">
+              <a href="https://www.salesforceairesearch.com/" target="_blank" rel="noopener noreferrer"><img src="img/sponsors/salesforce_logo.png" class="img-fluid" alt=""></a>
+            </div>
+          </div>
+         
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="img/supporters/4.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="img/supporters/5.png" class="img-fluid" alt="">
+            </div>
+          </div>
+        
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="img/supporters/6.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="img/supporters/7.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="img/supporters/8.png" class="img-fluid" alt="">
+            </div>
+          </div>
+-->
+
+        </div>
+
+      </div>
+	  
+    </section>
+
+    <!--==========================
+      F.A.Q Section
+    ============================-->
+<!--
+    <section id="faq" class="wow fadeInUp">
+
+      <div class="container">
+
+        <div class="section-header">
+          <h2>F.A.Q </h2>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+              <ul id="faq-list">
+
+                <li>
+                  <a data-toggle="collapse" class="collapsed" href="#faq1">Non consectetur a erat nam at lectus urna duis? <i class="fa fa-minus-circle"></i></a>
+                  <div id="faq1" class="collapse" data-parent="#faq-list">
+                    <p>
+                      Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                    </p>
+                  </div>
+                </li>
+      
+                <li>
+                  <a data-toggle="collapse" href="#faq2" class="collapsed">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <i class="fa fa-minus-circle"></i></a>
+                  <div id="faq2" class="collapse" data-parent="#faq-list">
+                    <p>
+                      Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                    </p>
+                  </div>
+                </li>
+      
+                <li>
+                  <a data-toggle="collapse" href="#faq3" class="collapsed">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i class="fa fa-minus-circle"></i></a>
+                  <div id="faq3" class="collapse" data-parent="#faq-list">
+                    <p>
+                      Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                    </p>
+                  </div>
+                </li>
+      
+                <li>
+                  <a data-toggle="collapse" href="#faq4" class="collapsed">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="fa fa-minus-circle"></i></a>
+                  <div id="faq4" class="collapse" data-parent="#faq-list">
+                    <p>
+                      Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                    </p>
+                  </div>
+                </li>
+      
+                <li>
+                  <a data-toggle="collapse" href="#faq5" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="fa fa-minus-circle"></i></a>
+                  <div id="faq5" class="collapse" data-parent="#faq-list">
+                    <p>
+                      Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                    </p>
+                  </div>
+                </li>
+      
+                <li>
+                  <a data-toggle="collapse" href="#faq6" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="fa fa-minus-circle"></i></a>
+                  <div id="faq6" class="collapse" data-parent="#faq-list">
+                    <p>
+                      Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+                    </p>
+                  </div>
+                </li>
+      
+              </ul>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+-->
+    <!--==========================
+      Subscribe Section
+    ============================-->
+<!--
+    <section id="subscribe">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h2>Newsletter</h2>
+          <p>Rerum numquam illum recusandae quia mollitia consequatur.</p>
+        </div>
+
+        <form method="POST" action="#">
+          <div class="form-row justify-content-center">
+            <div class="col-auto">
+              <input type="text" class="form-control" placeholder="Enter your Email">
+            </div>
+            <div class="col-auto">
+              <button type="submit">Subscribe</button>
+            </div>
+          </div>
+        </form>
+
+      </div>
+    </section>
+-->
+    <!--==========================
+      Buy Ticket Section
+    ============================-->
+<!--
+    <section id="buy-tickets" class="section-with-bg wow fadeInUp">
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Buy Tickets</h2>
+          <p>Velit consequatur consequatur inventore iste fugit unde omnis eum aut.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card mb-5 mb-lg-0">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">Standard Access</h5>
+                <h6 class="card-price text-center">$150</h6>
+                <hr>
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Regular Seating</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Coffee Break</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Custom Badge</li>
+                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Community Access</li>
+                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Workshop Access</li>
+                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>After Party</li>
+                </ul>
+                <hr>
+                <div class="text-center">
+                  <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="standard-access">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card mb-5 mb-lg-0">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">Pro Access</h5>
+                <h6 class="card-price text-center">$250</h6>
+                <hr>
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Regular Seating</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Coffee Break</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Custom Badge</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Community Access</li>
+                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Workshop Access</li>
+                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>After Party</li>
+                </ul>
+                <hr>
+                <div class="text-center">
+                  <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="pro-access">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+-->
+          <!-- Pro Tier -->
+<!--
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">Premium Access</h5>
+                <h6 class="card-price text-center">$350</h6>
+                <hr>
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Regular Seating</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Coffee Break</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Custom Badge</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Community Access</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Workshop Access</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>After Party</li>
+                </ul>
+                <hr>
+                <div class="text-center">
+                  <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="premium-access">Buy Now</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+-->
+      <!-- Modal Order Form -->
+<!--
+      <div id="buy-ticket-modal" class="modal fade">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Buy Tickets</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form method="POST" action="#">
+                <div class="form-group">
+                  <input type="text" class="form-control" name="your-name" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="your-email" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                  <select id="ticket-type" name="ticket-type" class="form-control" >
+                    <option value="">-- Select Your Ticket Type --</option>
+                    <option value="standard-access">Standard Access</option>
+                    <option value="pro-access">Pro Access</option>
+                    <option value="premium-access">Premium Access</option>
+                  </select>
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn">Buy Now</button>
+                </div>
+              </form>
+            </div>
+          </div><!-- /.modal-content -->
+<!--        </div><!-- /.modal-dialog -->
+<!--      </div><!-- /.modal -->
+
+<!--    </section>
+-->
+    <!--==========================
+      Contact Section
+    ============================-->
+<!--
+    <section id="contact" class="section-bg wow fadeInUp">
+
+      <div class="container">
+
+        <div class="section-header">
+          <h2>Contact Us</h2>
+          <p>Nihil officia ut sint molestiae tenetur.</p>
+        </div>
+
+        <div class="row contact-info">
+
+		  <div class="col-md-4">
+            <div class="contact-address">
+              <i class="ion-ios-location-outline"></i>
+              <h3>Address</h3>
+              <address>A108 Adam Street, NY 535022, USA</address>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="ion-ios-telephone-outline"></i>
+              <h3>Phone Number</h3>
+              <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:info@example.com">[TBD]info@example.com</a></p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="form">
+          <div id="sendmessage">Your message has been sent. Thank you!</div>
+          <div id="errormessage"></div>
+          <form action="" method="post" role="form" class="contactForm">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group col-md-6">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <div class="validation"></div>
+            </div>
+            <div class="text-center"><button type="submit">Send Message</button></div>
+          </form>
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+	
+
+    <!--==========================
+      Organizers Section
+    ============================-->
+    <section id="organizers" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <h2>Organizers</h2>
+          <p>[Contact Email: <a href="mailto:smart101@googlegroups.com">smart101@googlegroups.com</a>]</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <a href="organizer-details.html#Anoop_Cherian"><img src="img/organizers/Anoop_Cherian.jpg" alt="Anoop Cherian" class="img-fluid" style="width:100%;padding-bottom: 37px"></a>
+              <div class="details">
+                <h3><a href="organizer-details.html#Anoop_Cherian">Anoop Cherian</a></h3>
+                <p>Mitsubishi Electric Research Laboratories (MERL)</p>
+                <div class="social">
+                  <!--<a href=""><i class="fa fa-twitter"></i></a>-->
+                  <!--<a href=""><i class="fa fa-facebook"></i></a>-->
+                  <!--<a href=""><i class="fa fa-google-plus"></i></a>-->
+                  <a href="https://www.linkedin.com/in/anoop-cherian-4678a04/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+		  
+		  <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <a href="organizer-details.html#Kuan-Chuan_Peng"><img src="img/organizers/Kuan-Chuan_Peng.jpg" alt="Kuan-Chuan Peng" class="img-fluid" style="width:100%"></a>
+              <div class="details">
+                <h3><a href="organizer-details.html#Kuan-Chuan_Peng">Kuan-Chuan Peng</a></h3>
+                <p>Mitsubishi Electric Research Laboratories (MERL)</p>
+                <div class="social">
+                  <!-- <a href=""><i class="fa fa-twitter"></i></a> -->
+                  <a href="https://www.facebook.com/LynxPeng" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a>
+                  <!-- <a href=""><i class="fa fa-google-plus"></i></a> -->
+                  <a href="https://www.linkedin.com/in/kuan-chuan-peng-8344817a/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+		  
+		  <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <a href="organizer-details.html#Suhas_Lohit"><img src="img/organizers/Suhas_Lohit.jpg" alt="Suhas Lohit" class="img-fluid" style="width:100%;padding-bottom: 0px"></a>
+              <div class="details">
+                <h3><a href="organizer-details.html#Suhas_Lohit">Suhas Lohit</a></h3>
+                <p>Mitsubishi Electric Research Laboratories (MERL)</p>
+                <div class="social">
+                  <!--<a href=""><i class="fa fa-twitter"></i></a>-->
+                  <!--<a href=""><i class="fa fa-facebook"></i></a>-->
+                  <!--<a href=""><i class="fa fa-google-plus"></i></a>-->
+                  <a href="https://www.linkedin.com/in/suhaslohit/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+		  
+		  <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <a href="organizer-details.html#Honglu_Zhou"><img src="img/organizers/Honglu_Zhou.png" alt="Honglu Zhou" class="img-fluid" style="width:100%;padding-bottom: 88px"></a>
+              <div class="details">
+                <h3><a href="organizer-details.html#Honglu_Zhou">Honglu Zhou</a></h3>
+                <p>Salesforce AI Research</p>
+                <div class="social">
+                  <!--<a href=""><i class="fa fa-twitter"></i></a>-->
+                  <!--<a href=""><i class="fa fa-facebook"></i></a>-->
+                  <!--<a href=""><i class="fa fa-google-plus"></i></a>-->
+
+                  <a href="https://www.linkedin.com/in/honglu-zhou-21058a169/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+		  
+		  <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <a href="organizer-details.html#Kevin_Smith"><img src="img/organizers/Kevin_Smith.jpg" alt="Kevin Smith" class="img-fluid" style="width:100%;padding-bottom: 86px"></a>
+              <div class="details">
+                <h3><a href="organizer-details.html#Kevin_Smith">Kevin Smith</a></h3>
+                <p>MIT</p>
+                <div class="social">
+                  <a href="https://twitter.com/realkevinsmith" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter"></i></a>
+                  <!--<a href=""><i class="fa fa-facebook"></i></a>-->
+                  <!--<a href=""><i class="fa fa-google-plus"></i></a>-->
+                  <a href="https://www.linkedin.com/in/kevin-smith-4636944/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+<!--		  
+		  <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <a href="organizer-details.html#Le_Xue"><img src="img/organizers/Le_Xue.jpeg" alt="Le Xue" class="img-fluid" style="width:100%;padding-bottom: 87px"></a>
+              <div class="details">
+                <h3><a href="organizer-details.html#Le_Xue">Le Xue</a></h3>
+                <p>Salesforce AI Research</p>
+                <div class="social">
+                  <a href="https://x.com/Le_Xue01" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter"></i></a>
+-->
+                  <!--<a href=""><i class="fa fa-facebook"></i></a>-->
+                  <!--<a href=""><i class="fa fa-google-plus"></i></a>-->
+<!--
+                  <a href="https://www.linkedin.com/in/le-tycho-xue-5abbb9157/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+		  
+		  
+      <div class="col-lg-4 col-md-6">
+        <div class="speaker">
+          <a href="organizer-details.html#Tim_Marks"><img src="img/organizers/Tim_Marks.jpg" alt="Tim Marks" class="img-fluid" style="width:100%;padding-bottom: 0px"></a>
+          <div class="details">
+            <h3><a href="organizer-details.html#Tim_Marks">Tim Marks</a></h3>
+            <p>Mitsubishi Electric Research Laboratories (MERL)</p>
+            <div class="social">
+-->
+              <!--<a href=""><i class="fa fa-twitter"></i></a>-->
+              <!--<a href=""><i class="fa fa-facebook"></i></a>-->
+              <!--<a href=""><i class="fa fa-google-plus"></i></a>-->
+<!--
+              <a href="https://www.linkedin.com/in/tim-marks-063894132/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+-->
+		  <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <a href="organizer-details.html#Joshua_Tenenbaum"><img src="img/organizers/Joshua_Tenenbaum.jpg" alt="Joshua Tenenbaum" class="img-fluid" style="width:100%;padding-bottom: 47px"></a>
+              <div class="details">
+                <h3><a href="organizer-details.html#Joshua_Tenenbaum">Joshua B. Tenenbaum</a></h3>
+                <p>MIT</p>
+                <div class="social">
+                  <!--<a href=""><i class="fa fa-twitter"></i></a>-->
+                  <!--<a href=""><i class="fa fa-facebook"></i></a>-->
+                  <!--<a href=""><i class="fa fa-google-plus"></i></a>-->
+                  <!--<a href="" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>-->
+                </div>
+              </div>
+            </div>
+          </div>
+
+<!--	  
+		  <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <a href="organizer-details.html#Juan_Carlos_Niebles"><img src="img/organizers/Juan_Carlos_Niebles.jpg" alt="Juan Carlos Niebles" class="img-fluid" style="width:100%;padding-bottom: 70px"></a>
+              <div class="details">
+                <h3><a href="organizer-details.html#Juan_Carlos_Niebles">Juan Carlos Niebles</a></h3>
+                <p>Salesforce AI Research</p>
+                <div class="social">
+-->
+                  <!--<a href=""><i class="fa fa-twitter"></i></a>-->
+                  <!--<a href=""><i class="fa fa-facebook"></i></a>-->
+                  <!--<a href=""><i class="fa fa-google-plus"></i></a>-->
+                  <!-- <a href=""><i class="fa fa-linkedin"></i></a>-->
+<!--
+                </div>
+              </div>
+            </div>
+          </div>
+		  
+		  <div class="col-lg-4 col-md-6">
+            <div class="speaker">
+              <a href="organizer-details.html#Petar_Velickovic"><img src="img/organizers/Petar_Velickovic.jpg" alt="Petar Velickovic" class="img-fluid" style="width:100%;padding-bottom: 70px"></a>
+              <div class="details">
+                <h3><a href="organizer-details.html#Petar_Velickovic">Petar Veličković</a></h3>
+                <p>Google DeepMind</p>
+                <div class="social">
+                  <a href="https://twitter.com/PetarV_93" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter"></i></a>
+-->
+                  <!--<a href=""><i class="fa fa-facebook"></i></a>-->
+                  <!--<a href=""><i class="fa fa-google-plus"></i></a>-->
+<!--
+                  <a href="https://www.linkedin.com/in/petarvelickovic" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+-->
+		  
+          </div>
+        </div>
+      </div>		 
+
+
+    </section>
+	
+	
+	<!--==========================
+      Program Committee (Reviewers)
+    ============================-->
+
+    <section id="program_committee" class="wow fadeInUp">
+      <div class="container">
+        <div class="section-header">
+          <br><br>
+		  
+		  <h2>Program Committee</h2>
+		  </div>	  
+		  <table>
+			<tbody>
+				<tr>
+					<td>Abdul Waheed</td>
+					<td>Carnegie Mellon University</td>
+				</tr>
+				<tr>
+					<td>Antonia Wüst</td>
+					<td>TU Darmstadt</td>
+				</tr>
+				<tr>
+					<td>Artemis Panagopoulou</td>
+					<td>University of Pennsylvania</td>
+				</tr>
+				<tr>
+					<td>Christoph Boeddeker</td>
+					<td>Paderborn University</td>
+				</tr>
+				<tr>
+					<td>Danrui Li</td>
+					<td>Rutgers University</td>
+				</tr>
+				<tr>
+					<td>Devesh Jha</td>
+					<td>Mitsubishi Electric Research Laboratories</td>
+				</tr>
+				<tr>
+					<td>Didi Zhu</td>
+					<td>Zhejiang University</td>
+				</tr>
+				<tr>
+					<td>Frédéric Berdoz</td>
+					<td>ETH Zurich</td>
+				</tr>
+				<tr>
+					<td>Fuwen Luo</td>
+					<td>Tsinghua University</td>
+				</tr>
+				<tr>
+					<td>Gordon Wichern</td>
+					<td>Mitsubishi Electric Research Laboratories</td>
+				</tr>
+				<tr>
+					<td>Hao-Lun Hsu</td>
+					<td>Duke University</td>
+				</tr>
+				<tr>
+					<td>Haomeng Zhang</td>
+					<td>Purdue University</td>
+				</tr>
+				<tr>
+					<td>Haoquan Zhang</td>
+					<td>CUHK</td>
+				</tr>
+				<tr>
+					<td>Ibraheem Muhammad Moosa&emsp;&emsp;&emsp;</td>
+					<td>Penn State University</td>
+				</tr>
+				<tr>
+					<td>Jiahao Zhang</td>
+					<td>Australian National University</td>
+				</tr>
+				<tr>
+					<td>Jing Liu</td>
+					<td>Mitsubishi Electric Research Laboratories</td>
+				</tr>
+				<tr>
+					<td>Kanchana Ranasinghe</td>
+					<td>Stony Brook University</td>
+				</tr>
+				<tr>
+					<td>Kibum Kim</td>
+					<td>KAIST</td>
+				</tr>
+				<tr>
+					<td>Kobe Knowles</td>
+					<td>University of Auckland</td>
+				</tr>
+				<tr>
+					<td>Loka Li</td>
+					<td>Mohamed bin Zayed University of Artificial Intelligence</td>
+				</tr>
+				<tr>
+					<td>Md Masudur Rahman</td>
+					<td>Purdue University</td>
+				</tr>
+				<tr>
+					<td>Md Tanvirul Alam</td>
+					<td>Rochester Institute of Technology</td>
+				</tr>
+				<tr>
+					<td>Minjoon Jung</td>
+					<td>Seoul National University</td>
+				</tr>
+				<tr>
+					<td>Mir Rayat Imtiaz Hossain</td>
+					<td>University of British Columbia</td>
+				</tr>
+				<tr>
+					<td>Mohammad Shahab Sepehri</td>
+					<td>University of Southern California</td>
+				</tr>
+				<tr>
+					<td>Moitreya Chatterjee</td>
+					<td>Mitsubishi Electric Research Laboratories</td>
+				</tr>
+				<tr>
+					<td>Qi Cao</td>
+					<td>UC San Diego</td>
+				</tr>
+				<tr>
+					<td>Qinhong Zhou</td>
+					<td>Tsinghua University</td>
+				</tr>
+				<tr>
+					<td>Rachneet Kaur</td>
+					<td>J.P. Morgan AI Research</td>
+				</tr>
+				<tr>
+					<td>Shanka Subhra Mondal</td>
+					<td>Princeton University</td>
+				</tr>
+				<tr>
+					<td>Shijie Wang</td>
+					<td>Brown University</td>
+				</tr>
+				<tr>
+					<td>Siddarth Jain</td>
+					<td>Mitsubishi Electric Research Laboratories</td>
+				</tr>
+				<tr>
+					<td>Sina Rismanchian</td>
+					<td>University of California, Irvine</td>
+				</tr>
+				<tr>
+					<td>Soumya Banerjee</td>
+					<td>University of Cambridge</td>
+				</tr>
+				<tr>
+					<td>Tim Marks</td>
+					<td>Mitsubishi Electric Research Laboratories</td>
+				</tr>
+				<tr>
+					<td>Vanya Cohen</td>
+					<td>The University of Texas at Austin</td>
+				</tr>
+				<tr>
+					<td>Weitai Kang</td>
+					<td>University of Illinois Chicago</td>
+				</tr>
+				<tr>
+					<td>Yada Pruksachatkun</td>
+					<td>Salesforce Research</td>
+				</tr>
+				<tr>
+					<td>Ye Wang</td>
+					<td>Mitsubishi Electric Research Laboratories</td>
+				</tr>
+				<tr>
+					<td>Yifan Jiang</td>
+					<td>Southern University of Science and Technology</td>
+				</tr>		
+				<tr>
+					<td>Yiqiao Jin</td>
+					<td>Georgia Institute of Technology</td>
+				</tr>
+				<tr>
+					<td>Yoshiki Masuyama</td>
+					<td>Mitsubishi Electric Research Laboratories</td>
+				</tr>
+				<tr>
+					<td>Yu Zhou</td>
+					<td>UCLA</td>
+				</tr>
+				<tr>
+					<td>Yunkee Chae</td>
+					<td>Seoul National University</td>
+				</tr>
+				<tr>
+					<td>Yuyou Zhang</td>
+					<td>Carnegie Mellon University</td>
+				</tr>
+				<tr>
+					<td>Zhengye Yang</td>
+					<td>Rensselaer Polytechnic Institute</td>
+				</tr>
+				<tr>
+					<td>Zhifeng Kong</td>
+					<td>NVIDIA</td>
+				</tr>
+				<tr>
+					<td>Zihao Lin</td>
+					<td>UC Davis</td>
+				</tr>
+				<tr>
+					<td>Ziyang Wang</td>
+					<td>University of North Carolina at Chapel Hill</td>
+				</tr>
+				<tr>
+					<td>Ziyue Wang</td>
+					<td>Tsinghua University</td>
+				</tr>
+				<tr>
+					<td>&emsp;</td>
+					<td>&emsp;</td>
+				</tr>
+				<tr>
+					<td>&emsp;</td>
+					<td>&emsp;</td>
+				</tr>
+				<tr>
+					<td>&emsp;</td>
+					<td>&emsp;</td>
+				</tr>
+			</tbody>
+		  </table>
+        
+      </div>
+
+    </section>
+
+	
 
   </main>
 
